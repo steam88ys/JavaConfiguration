@@ -22,7 +22,7 @@ public class Main {
         TestBean1 obj2 = ctx2.getBean("java1", TestBean1.class);
         System.out.println("obj2: "+obj2);
 
-        TestBean2 obj22 = ctx2.getBean("java1", TestBean2.class);
+        TestBean2 obj22 = ctx2.getBean("java2", TestBean2.class);
         System.out.println("obj2-1: "+obj22);
         ctx2.close();
     }
